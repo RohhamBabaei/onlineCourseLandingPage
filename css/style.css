@@ -1,0 +1,415 @@
+/* Import Fonts */
+@import url(./fonts.css);
+
+/* Import Variable */
+@import url(./partial/_variable.css);
+
+/* Import Global CSS */
+@import url(./partial/_global.css);
+
+
+
+    /* navbar Begins */
+
+.header .mainMenu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    background: transparent;
+}
+
+.header .mainMenu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header .mainMenu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color:#ffffff;
+}
+
+.header .mainMenu .navbar-nav .active a{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header .mainMenu .navbar-nav a:hover{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header .mainMenu .topNav a{
+    font: normal 400 12px/2px var(--roboto);
+    /* text-transform: uppercase; */
+    padding: 1rem;
+    color:#ffffff;
+}
+
+.header .mainMenu.topNav .active a{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header .mainMenu .topNav a:hover{
+    background: var(--gradientColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+    /* navbar Ends */
+
+    /* website Banner Begins */
+    .websiteBanner{
+
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p6.jpg) no-repeat;
+        background-size: cover;
+        /* transition: 5s;
+        animation-name: animate;
+        animation-direction:normal;
+        animation-duration: 600s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: ease-in-out; */
+    }
+
+    /* @keyframes animate{
+        0%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p1.jpg) no-repeat;
+            background-size: cover;
+
+        }
+        20%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p2.jpg) no-repeat;
+            background-size: cover;
+        }
+        30%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p3.jpg) no-repeat;
+            background-size: cover;
+        }
+        40%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p4.jpg) no-repeat;
+            background-size: cover;
+        }
+       50%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p5.jpg) no-repeat;
+            background-size: cover;
+        }
+        60%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p6.jpg) no-repeat;
+            background-size: cover;
+        }
+        70%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p7.jpg) no-repeat;
+            background-size: cover;
+        }
+        80%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p8.jpg) no-repeat;
+            background-size: cover;
+        }
+        90%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p9.jpg) no-repeat;
+            background-size: cover;
+        }
+        100%{
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/banner/p10.jpg) no-repeat;
+            background-size: cover;
+        }
+
+    } */
+
+    .mainContainer .websiteBanner .websiteTitle h4{
+        padding-top: 5%;
+        font-weight: 500;
+    }
+    .mainContainer .websiteBanner .websiteTitle h6{
+        padding-top: 5%;
+        font-weight: 300;
+    }
+
+    .mainContainer .websiteBanner .websiteTitle h4::after{
+        content: "";
+        height: 2px;
+        width: 18vw;
+        background: #000000;
+        /* display: inline-block; */
+        margin-left: 5%;
+        transform: translateY(-10px);
+    }
+
+    .mainContainer .websiteBanner .websiteTitle h1{
+        padding-top: 12rem;
+        font-size: 5rem;
+        color: var(--primaryColor);
+        text-shadow: var(--boxShadow);
+
+    }
+    
+    .mainContainer .websiteBanner .websiteTitle h4{
+        font-size: 2rem;
+        color: #ffffff;
+        text-shadow: var(--boxShadow);
+        
+    }
+
+    .mainContainer .websiteBanner .websiteTitle h6{
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-shadow: var(--boxShadow);
+        
+    }
+    /* website Banner Ends */
+
+    /* Scroll Begins */
+    .scroll{
+        width: 30px;
+        height: 50px;
+        position: absolute;
+        bottom: 1%;
+        left: 50%;
+        cursor: pointer;
+        margin-top: -25px;
+        margin-left: -15px;
+    }
+    .scroll .mouse{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border: 2px solid #ffffff;
+        border-radius: 20px;
+    }
+    .scroll .wheel{
+        width: 4px;
+        height: 4px;
+        top: 10px;
+        left: 50%;
+        position: absolute;
+        background: #ffffff;
+        display: block;
+        border-radius: 50%;
+        margin-left: -2px;
+        animation-name: scroll-wheel;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes scroll-wheel{
+        from{
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+        to{
+            transform: translate3d(0, 10px, 0);
+            opacity: 0;
+        }
+    }
+    /* Scroll Ends */
+    /* Text Animation Begins */
+    .fadeIn {
+        animation: fadeIn ease 5s;
+        -webkit-animation: fadeIn ease 5s;
+        -moz-animation: fadeIn ease 5s;
+        -o-animation: fadeIn ease 5s;
+        -ms-animation: fadeIn ease 5s;
+        }
+
+        @keyframes fadeIn {
+
+            0% {opacity: 0;}
+
+            /* 45% {opacity: .45;}
+            
+            75% {opacity: .75;} */
+            
+            100% {opacity: 1;}
+        }
+        
+        @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+
+    /* Text Animation Ends */
+
+    /* Play Button Begins */
+    .playButton{
+        background: #ffffff;
+        /* color: #fff !important; */
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 50%; right: 0px;
+        top: 0px; bottom: 0px;
+        margin: auto;
+        text-align: center;
+        border-radius: 50%;
+        
+    }
+    .playButton i{
+        line-height: 100px;
+        margin-left: 10px;
+    }
+    
+    .playButton::before, .playButton::after{
+        content: "";
+        position: absolute;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        left: -20px; right: -20px;
+        top: -20px; bottom: -20px;
+        animation: playAnimate 1.5s linear infinite ;
+        opacity: 0;
+    }
+    
+    .playButton::after{
+        animation-delay: 0.5s;
+    }
+    
+    @keyframes playAnimate{
+        0%{
+            transform: scale(.5);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            transform: scale(1.5);
+        }
+    }
+
+    /* Play Button Ends */
+
+    .UCTitle  h2 > span{
+        display: block;
+        font: normal bold 40px/50px var(--roboto);
+        letter-spacing: 10px ;
+    }
+    .about{
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner/aboutbg.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .about .col-6 .s1{
+        border-style:solid;
+        border-color: #ffffff;
+        border-radius: 10px;
+        border-width: thin;
+    }
+
+    /* Recom Area begins */
+
+    .recomArea .recomTitle p{
+        padding: 1rem 7rem;
+    }
+
+    .recomArea .people{
+        background: #ffffff10;
+        box-shadow: var(--boxShadow);
+        margin: 3rem 0rem;
+    }
+
+    .recomArea .people .peopleImg{
+       padding: 2rem;
+    }
+
+    .recomArea .people .peopleImg img{
+        border-radius: 50%;
+        width: 150px;
+    }
+
+    .recomArea .people .aboutPeople{
+        padding-top:  2rem;
+    }
+
+    .recomArea .people .aboutPeople h4{
+        font: normal 500 21px/20px var(--roboto) ;
+    }
+    .recomArea .people .aboutPeople h6{
+        font: normal 500 12px/20px var(--roboto) ;
+    }
+
+    .recomArea .people .aboutPeople p{
+        font-size: 12px;
+    }
+
+    .recomArea .owl-carousel .owl-item{
+        display: flex;
+        justify-content: center;
+        padding: 0 1.5rem;
+    }
+
+    .recomArea .owl-carousel .owl-dots .owl-dot.active span{
+        background: var(--primaryColor) ;
+        width: 12px;
+        height: 12px;
+    }
+
+    /* Recom Area Ends */
+
+    /* Footer Area Begins */
+
+    footer.footerArea{
+        padding: 5rem 0;
+    }
+
+    footer.footerArea .social h5{
+        font: normal 500 23px/30px var(--roboto) ;
+    }
+
+    footer.footerArea .social a>i{
+        font-size: 30px;
+        padding: 2rem ;
+        color: var(--borderColor);
+    }
+
+    
+    footer.footerArea .social a>.fa-linkedin-in:hover{
+        color:var(--linkedin);
+    }
+
+    footer.footerArea .social a>.fa-twitter:hover{
+        color:var(--twitter);
+    }
+
+    footer.footerArea .social a>.fa-github:hover{
+        color:var(--github);
+    }
+
+    footer.footerArea .social a>.fa-stack-overflow:hover{
+        color:var(--stackoverfolow);
+    }
+
+    footer.footerArea .social a>.fa-instagram:hover{
+        color:var(--instagram);
+    }
+    
+    .copyright{
+        font: normal 500 12px/20px var(--roboto) ;
+    }
+
+    /* Footer Area Ends */

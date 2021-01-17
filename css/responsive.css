@@ -1,0 +1,104 @@
+/* 375px or less viewport */
+@media only screen and (max-width: 375px){
+    .header .mainMenu .navbar, .header .mainMenu .navbar .navbar-brand{
+        padding: 2%;
+        margin: 0%;
+    }
+    .mainContainer .websiteBanner .websiteTitle h1{
+        font-size: 41px;
+    }
+
+    .mainContainer .websiteBanner .websiteTitle h3{
+        font-size: 12px;
+    }
+
+    .mainContainer > .moreInfo .Information{
+        width: 13rem;
+    }
+    .header .mainMenu .navbar, .header .mainMenu .navbar .navbar-brand img{
+        width: 15;
+    }
+    .mainContainer .websiteBanner .websitebuttons button{
+        padding: 1rem;
+    }
+
+    .mainContainer .certification .description .companyArea{
+        padding-left: 1%;
+        width: 40%;
+
+    }
+
+    .mainContainer .certification .description .companyArea .company{
+        font: normal bold 35px/25px var(--roboto);
+
+    }
+
+    .mainContainer .certification .description .companyArea h2>span{
+        font: normal 500 15px/30px var(--roboto);
+    }
+
+
+    .mainContainer .certification .description .callArea{
+        margin-left: 0%;
+   
+    }
+}
+
+/* 792px or less viewport */
+@media only screen and (max-width: 792px){
+
+    .mainContainer .aboutMe .aboutTitle h2 > span,
+    .careerPathTimeLine .aboutTitle h2 > span,
+    .certification .aboutTitle h2 > span,
+    .moreInfo .moreInfoTitle .aboutTitle h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    
+    .recomArea .recomTitle h2{
+        font-size: 31px;
+    }
+    
+    .mainContainer .certification .description .companyArea{
+        padding-left: 1%;
+        width: 49%;
+
+    }
+
+    .mainContainer .certification .description .bg-panel{
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .mainContainer .certification .description .callArea{
+        margin-left: 3%;
+   
+    }
+
+    .mainContainer .galleryArea .buttonGroup button {
+        font: normal 500 18px/40px var(--roboto);
+   
+    }
+
+    .mainContainer .aboutMe .aboutTitle p {
+        padding: 0%;
+    }
+
+}
+
+/* 1910px or less viewport */
+@media only screen and (max-width: 1910px){
+    .header .mainMenu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .mainContainer .certification,
+    .mainContainer .moreInfo .moreInfoTitle,
+    .mainContainer .aboutMe{
+        padding: 3% 4%;
+    }
+}
